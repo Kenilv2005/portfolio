@@ -1,34 +1,36 @@
-import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
-import img01 from "../img/hero-img.2.webp"
-import TabButton from './TabButton'
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+import img01 from "../img/hero-img.2.webp";
+import TabButton from "./TabButton";
 
 export default function About() {
-    return (
-        <>
-            <section className='about' id='about'>
-                <Container>
-                    <Row className='align-items-center'>
-                        <Col lg={6} className='abt-img'>
-                            <div className='about-img'>
-                                <img className='img-fluid' src={img01} alt="" />
-                            </div>
-                        </Col>
-                        <Col lg={6} className='abt-text'>
-                            <h1 className='about-title text-light'>About Me</h1>
-                            <p className='about-text text-light'>
-                                Transitioning into web development has ignited a new passion within me.
-                                While my background differs, I've enthusiastically dived into JavaScript, React,
-                                Node.js, Express, Firebase, HTML, CSS, and Git to master the craft. I thrive on
-                                continuous learning, eagerly absorbing new skills to enhance my capabilities.
-                            </p>
-                            <TabButton />
-                        </Col>
-                    </Row>
-                </Container>
-            </section>
-        </>
-    )
+  return (
+    <>
+      <section className="about" id="about">
+        <Container>
+          <Row className="align-items-center">
+            <Col lg={6} className="abt-img">
+              <div className="about-img">
+                <img className="img-fluid" src={img01} alt="" />
+              </div>
+            </Col>
+            <Col lg={6} className="abt-text">
+              <h1 className="about-title text-light">About Me</h1>
+              <p className="about-text text-light">
+                Transitioning into web development has ignited a new passion
+                within me. While my background differs, I've enthusiastically
+                dived into JavaScript, React, Node.js, Express, Firebase, HTML,
+                CSS, and Git to master the craft. I thrive on continuous
+                learning, eagerly absorbing new skills to enhance my
+                capabilities.
+              </p>
+              <TabButton />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
 }
 
 // I am delving into the world of web development with a newfound passion for
